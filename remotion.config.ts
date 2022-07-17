@@ -6,3 +6,4 @@ import {Config} from 'remotion';
 
 Config.Rendering.setImageFormat('jpeg');
 Config.Output.setOverwriteOutput(true);
+Config.Puppeteer.setBrowserExecutable("/usr/bin/google-chrome-stable");
