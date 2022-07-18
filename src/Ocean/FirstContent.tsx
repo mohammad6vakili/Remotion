@@ -3,6 +3,8 @@ import React from 'react';
 import {spring, useCurrentFrame, useVideoConfig} from 'remotion';
 // config import
 import {Config} from '../Config/config';
+// assets import
+import ZebraLogo from "../tmp/logo_zebra-removebg-preview.png"
 
 export const FirstContent: React.FC = () => {
 	// hooks
@@ -19,14 +21,14 @@ export const FirstContent: React.FC = () => {
 		fontWeight: 'bold',
 		position: 'absolute',
 		width: '100%',
-		height: '700px',
+		height: '1000px',
 		left: '0',
 		display: 'flex',
 		flexDirection: 'column',
 		alignItems: 'center',
 		justifyContent: 'center',
 		background:
-			'linear-gradient(180deg, rgba(66, 53, 16,0.78222426470588236) 0%, rgba(66, 53, 16,0) 100%)',
+			'linear-gradient(180deg, rgba(66, 53, 16,0.88222426470588236) 0%, rgba(66, 53, 16,0) 100%)',
 		top,
 	};
 
@@ -75,6 +77,7 @@ export const FirstContent: React.FC = () => {
 					);
 				})}
 			</h1>
+			<img style={{marginTop:"150px"}} src={ZebraLogo} alt="zebra" />
 		</div>
 	);
 };
