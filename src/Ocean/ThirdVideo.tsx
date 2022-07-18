@@ -10,7 +10,7 @@ import {
 // config import
 import {Config} from '../Config/config';
 // assets imports
-import videoUrl from '../tmp/1.mp4';
+import videoUrl from '../tmp/1.webm';
 
 const ThirdVideo = () => {
 	// hooks

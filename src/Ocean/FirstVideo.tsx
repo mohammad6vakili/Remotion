@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {Video} from 'remotion';
-import videoUrl from "../tmp/5.mp4"
+import videoUrl from "../tmp/5.webm"
 
 const VideoWrapper = styled.div`
 	width: 100%;

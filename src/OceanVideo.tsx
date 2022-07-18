@@ -138,12 +138,12 @@ const OceanVideo: React.FC = () => {
 					</div>
 				</Sequence>
 				{/* ----------------Last Part----------------– */}
-				<Sequence from={480}>
+				<Sequence from={450}>
 					<div style={InfoStyle}>
 						<a
 							style={{
 								textDecoration: 'none',
-								fontSize: '80px',
+								fontSize: '64px',
 								fontWeight: '700',
 								marginBottom: '50px',
 								color: 'black',
@@ -151,7 +151,7 @@ const OceanVideo: React.FC = () => {
 							target="_blank"
 							href="https://github.com/mohammad6vakili/Remotion"
 						>
-							Check the source
+							https://github.com/mohammad6vakili/Remotion
 						</a>
 						<div>
 							<span>Created by</span>

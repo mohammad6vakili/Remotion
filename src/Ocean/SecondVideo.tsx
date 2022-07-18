@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // remotion imports
 import {Video, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 // assets imports
-import videoUrl from '../tmp/2.mp4';
+import videoUrl from '../tmp/2.webm';
 
 // styled components
 const VideoWrapper = styled.div`
