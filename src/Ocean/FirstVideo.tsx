@@ -1,6 +1,4 @@
-import React from 'react';
 import styled from 'styled-components';
-import {Config} from '../Config/config';
 import {Video} from 'remotion';
 import videoUrl from "../tmp/5.mp4"
 
